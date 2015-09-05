@@ -1,0 +1,28 @@
+{
+  "name": "consultas-lambda",
+  "version": "1.0.0",
+  "description": "Função lambda para consulta no MySql",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gammasoft/consultas-lambda.git"
+  },
+  "keywords": [
+    "lambda",
+    "mysql"
+  ],
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammasoft/consultas-lambda/issues"
+  },
+  "homepage": "https://github.com/gammasoft/consultas-lambda",
+  "dependencies": {
+    "gammautils": "0.0.70",
+    "mysql": "^2.9.0",
+    "sequelize": "^3.6.0"
+  }
+}
